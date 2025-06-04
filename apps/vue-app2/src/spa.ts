@@ -1,4 +1,4 @@
-import Vue from 'vue';
+import Vue, { type CreateElement } from 'vue';
 import App from './App.vue';
 import singleSpaVue from 'single-spa-vue';
 
@@ -7,7 +7,7 @@ Vue.config.productionTip = false;
 const vueLifecycles = singleSpaVue({
   Vue,
   appOptions: {
-    render(h: any) {
+    render(h: CreateElement) {
       return h(App, {
         props: {
           // single-spa props are available on the "this" object. Forward them to your component as needed.
