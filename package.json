@@ -4,10 +4,8 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
-    "dev": "turbo run dev",
-    "lint": "turbo run lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "prepare": "pnpm build"
+    "dev": "turbo run dev --concurrency 11",
+    "lint": "turbo run lint"
   },
   "devDependencies": {
     "turbo": "latest",
@@ -17,12 +15,8 @@
     "@mf-demo/tsconfig": "workspace:*",
     "@mf-demo/tailwind-config": "workspace:*"
   },
-  "dependencies": {
-    "single-spa": "^5.9.0",
-    "@types/single-spa": "^5.0.0"
-  },
   "engines": {
-    "node": ">=18.0.0"
+    "node": ">=22.0.0"
   },
   "packageManager": "pnpm@8.9.0"
 } 
