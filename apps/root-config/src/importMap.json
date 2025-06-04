@@ -1,0 +1,11 @@
+{
+  "imports": {
+    "@mf-demo/react-app1": "http://localhost:9001/js/spa.js",
+    "@mf-demo/react-app2": "http://localhost:9002/js/spa.js",
+    "@mf-demo/vue-app1": "http://localhost:9003/js/spa.js",
+    "@mf-demo/vue-app2": "http://localhost:9004/js/spa.js",
+    "vue": "https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js",
+    "react": "https://cdn.jsdelivr.net/npm/react@18.2.0/umd/react.production.min.js",
+    "react-dom": "https://cdn.jsdelivr.net/npm/react-dom@18.2.0/umd/react-dom.production.min.js"
+  }
+}

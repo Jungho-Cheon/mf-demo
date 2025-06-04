@@ -1,0 +1,9 @@
+{
+  "extends": "@mf-demo/tsconfig/react.json",
+  "compilerOptions": {
+    "moduleResolution": "bundler",
+    "allowJs": false
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+} 

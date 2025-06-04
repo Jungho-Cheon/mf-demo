@@ -1,0 +1,8 @@
+{
+  "imports": {
+    "@mf-demo/react-app1": "http://localhost:9001/src/spa.tsx",
+    "@mf-demo/react-app2": "http://localhost:9002/src/spa.tsx",
+    "@mf-demo/vue-app1": "http://localhost:9003/src/spa.ts",
+    "@mf-demo/vue-app2": "http://localhost:9004/src/spa.ts"
+  }
+}

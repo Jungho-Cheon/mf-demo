@@ -1,0 +1,38 @@
+{
+  "name": "@mf-demo/react-app1",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.3",
+    "single-spa-react": "^6.0.2",
+    "@mf-demo/design-system-react": "workspace:*",
+    "@mf-demo/api": "workspace:*",
+    "@mf-demo/store": "workspace:*",
+    "@mf-demo/query": "workspace:*"
+  },
+  "devDependencies": {
+    "@mf-demo/eslint-config": "workspace:*",
+    "@mf-demo/prettier-config": "workspace:*",
+    "@mf-demo/tailwind-config": "workspace:*",
+    "@mf-demo/tsconfig": "workspace:*",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "@vitejs/plugin-react": "^4.2.0",
+    "typescript": "^5.3.0",
+    "vite": "^5.0.0",
+    "vite-plugin-single-spa": "^0.2.0"
+  }
+} 
