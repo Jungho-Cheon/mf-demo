@@ -1,0 +1,14 @@
+{
+  "name": "@mf-demo/tsconfig",
+  "version": "0.0.0",
+  "private": true,
+  "files": [
+    "base.json",
+    "react.json",
+    "vue.json"
+  ],
+  "dependencies": {
+    "@tsconfig/node20": "^20.1.2",
+    "@vue/tsconfig": "^0.5.1"
+  }
+} 

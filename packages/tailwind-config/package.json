@@ -1,0 +1,12 @@
+{
+  "name": "@mf-demo/tailwind-config",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "dependencies": {
+    "tailwindcss": "^3.3.0",
+    "@tailwindcss/forms": "^0.5.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0"
+  }
+} 
