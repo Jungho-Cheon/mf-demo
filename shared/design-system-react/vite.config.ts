@@ -18,12 +18,7 @@ export default defineConfig({
       fileName: 'index',
     },
     rollupOptions: {
-      external: [
-        'react',
-        'react-dom',
-        'react/jsx-runtime',
-        /^@radix-ui\/.*/,
-      ],
+      external: ['react', 'react-dom', 'react/jsx-runtime', /^@radix-ui\/.*/],
       output: {
         preserveModules: true,
         preserveModulesRoot: 'src',
@@ -34,4 +29,4 @@ export default defineConfig({
     target: 'esnext',
     cssCodeSplit: true,
   },
-}); 
+});
