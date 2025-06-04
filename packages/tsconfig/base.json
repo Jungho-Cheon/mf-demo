@@ -3,7 +3,7 @@
   "display": "Default",
   "extends": "@tsconfig/node20/tsconfig.json",
   "compilerOptions": {
-    "target": "ES2024",
+    "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "bundler",
     "allowJs": true,
